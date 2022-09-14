@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+.nav-items {
+    list-style: none; 
+    display: flex;
+    align-items: center;
+
+
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.5);
+    background-color:whitesmoke;
+}
+
+.nav-items > li {
+    padding: 30px;
+}
+
+.image {
+    width: 175px;
+}
+
+.font {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: 'Josefin Sans', cursive;
+    background-color: #ddd;
+}
+.bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;   /* Height of the footer */
+    background-color: rgb(130, 83, 83);
+    color: whitesmoke;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-size:1.2em;
+}
+.heading {
+    margin-left: 10px;
+}
